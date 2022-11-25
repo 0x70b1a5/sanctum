@@ -80,9 +80,14 @@
             =xmlns     "http://www.w3.org/2000/svg"
             ;defs
               ;radialGradient  =id  "bg"  =cx  "0"  =cy  "0"
-                ;stop  =offset  "0%"    stop-color="#ffffff"
-                ;stop  =offset  "75%"   stop-color="#ffc300"
-                ;stop  =offset  "100%"  stop-color="#913f00"
+                ;stop  =offset  "0%"    =stop-color  "#ffffff";
+                ;stop  =offset  "75%"   =stop-color  "#ffc300";
+                ;stop  =offset  "100%"  =stop-color  "#913f00";
+              ==
+              ;style  =type  "text/css"
+                @import url('https://personal-server.fra1.digitaloceanspaces.com/font-face.css');
+              ==
+            ==
             ;rect
               =fill    "url(#bg)"
               =width   "100"
@@ -125,7 +130,8 @@
         ;div
           =xmlns  "http://www.w3.org/1999/xhtml"
           =style  """
-                  color: #445; font-family: serif;
+                  color: #445;
+                  font-family: 'Caslon Antique', serif;
                   font-size: {((d-co:co 1) siz)}pt;
                   line-height: 1.1em;
                   text-align: justify;
