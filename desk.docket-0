@@ -2,6 +2,7 @@
     info+'a random Imperial thought for every day'
     color+0xff.c300
     image+'/sanctum/sanctum'
+    site+/sanctum/study
     base+'sanctum'
     version+[1 0 0]
     website+'https://github.com/0x70b1a5/sanctum'
